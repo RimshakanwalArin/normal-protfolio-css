@@ -1,5 +1,5 @@
 import React from "react";
-import './contect.css'; // Import the CSS file
+
 
 function Contect() {
   return (

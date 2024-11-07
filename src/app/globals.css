@@ -185,3 +185,179 @@ body {
     font-size: 1.125rem;
   }
 }
+
+
+/* about file */
+/* General Styles
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+  }
+  
+  /* Container for About Section */
+  .about-container {
+    padding: 24px;
+    background-color: #93c5fd;
+  }
+  
+  .about-card {
+    max-width: 1024px;
+    margin: 70px auto;
+    background-color: #dbeafe;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Header Section */
+  .about-header {
+    text-align: center;
+    padding: 32px;
+    background: linear-gradient(to right, #60a5fa, #1e3a8a);
+    color: white;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .about-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  /* Section Container */
+  .about-section {
+    padding: 32px;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #1e3a8a;
+  }
+  
+  /* Section Content */
+  .section-text {
+    font-size: 1.125rem;
+    color: #2563eb;
+    line-height: 1.8;
+  }
+  
+  .section-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1.125rem;
+    color: #2563eb;
+  }
+  
+  /* Professional Experience Section */
+  .professional-experience {
+    margin-bottom: 32px;
+  }
+  
+  .experience-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #1e40af;
+  }
+  
+  .experience-company {
+    font-size: 1.125rem;
+    color: #6b7280;
+  }
+  
+  .experience-date {
+    font-size: 1rem;
+    color: #64748b;
+  }
+  
+  /* Footer or Additional Sections */
+  .section-footer {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 16px;
+    color: #374151;
+  }
+
+
+
+  /* contect file */
+   /* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f2fe;
+}
+
+.contect-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  margin: 16px;
+  text-align: center;
+}
+
+/* Border Styles */
+.contect-border {
+  border: 2px solid #2563eb;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.contect-header {
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, #60a5fa, #1d4ed8);
+  color: white;
+  margin-top: 70px;
+}
+
+.contect-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.contect-info {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .contect-header {
+    padding: 3rem 2rem;
+  }
+
+  .contect-title {
+    font-size: 3rem;
+  }
+
+  .contect-info {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contect-header {
+    padding: 4rem 3rem;
+  }
+
+  .contect-title {
+    font-size: 4rem;
+  }
+
+  .contect-info {
+    font-size: 1.5rem;
+  }
+}
+
+/* Text Emphasis */
+.contect-bold {
+  font-weight: bold;
+  color: #facc15;
+}
