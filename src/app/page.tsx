@@ -1,95 +1,43 @@
+import React from "react";
 import Image from "next/image";
-import styles from "./page.module.css";
+// Import the CSS file
 
-export default function Home() {
+function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+    <div className="home-container">
+      <div className="home-inner">
+        <Image 
+          src="/about-image.png" 
+          alt="Description of image" 
+          width={600} 
+          height={600} 
+          className="home-image"
+        />
+        <h1 className="home-title">Aslom o Alikom</h1>
+        <h1 className="home-subtitle">
+          I am <span className="home-highlight">Rimsha Kanwal Arian</span> Full Stack Developer
+        </h1>
+        <p className="home-paragraph">
+          I am a Full Stack developer specializing in creating the visual and interactive aspects of websites and web applications. I use technologies like HTML, CSS, TypeScript, and Next.js to build user interfaces that are both functional and aesthetically pleasing. I ensure a seamless user experience by optimizing performance and ensuring cross-browser compatibility.
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+        <div className="developer-section">
+          <Image 
+            src="/hero-image.png" 
+            alt="Description of image" 
+            width={500} 
+            height={500} 
+            className="home-pulse-image"
+          />
+          <h3 className="developer-title">
+            Full Stack<span className="home-highlight">Developer</span>
+          </h3>
+          <p className="developer-paragraph">
+            I am Rimsha Kanwal Arian, a 23-year-old <span  className="home-highlight">Full Stack</span>  developer. I have acquired skills in Full Stack development and studied on-site at Governor House. I am grateful to Governor Kamran Tessori for initiating my IT education.
+          </p>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
 }
+
+export default Home;
